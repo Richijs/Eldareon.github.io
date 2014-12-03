@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Dark Souls II Fansite</title>
+<link rel="stylesheet" type="text/css" href="bash.css"/>
+<script src="jquery-2.0.2.js"></script>
+<script src="script.js"></script>
+<script type="text/javascript" src="validation.js" charset="UTF-8"></script> 
+</head>
+<body>
+    <section id="main">
+        <header>
+            <div class="dontPrint" id="logo">
+                <img alt="Dark Souls II" src="ds2logo.jpg" width="1000" height="80" />
+            </div>
+            <nav>
+                <ul class="dontPrint" id="topmenu">
+					<li><a href="index.html">Home</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                    <li><a href="Contacts.html">Contacts</a></li>
+                </ul>
+            </nav>
+        </header>
+		
+		<a href="#" class="scrollup">Scroll</a>
+		
+		<article id="main">
+
+        <form action="http://naivist.net/form" id="contactForm">
+			<fieldset>
+				<legend>Contacts</legend>
+				<p>
+					<label for="firstName">Name: </label>
+						<input name ="firstName" type="text" id="firstName" value="" />
+				</p>
+				<p>
+					<label for="lastName">Surname: </label>
+						<input name ="lastName" type="text" id="LastName" value="" />
+				</p>
+				<p>
+					<label for="email">E-mail: </label>
+						<input name="email" type="text" id="email" value="" />
+				</p>
+				<p>
+					<label for="number">Age: </label>
+						<input name="age" type="number" id="age" />
+				</p>
+
+				 <p>
+					<label for ="reason">Reason for messaging: </label>
+					<select name="reason" class="" id="reason">
+							<option value="s0">Choose type</option>
+							<option value="s1">New information about game</option>
+							<option value="s2">Problems with website</option>
+							<option value="s3">Suggestions</option>
+							<option value="s4">Complaint</option>
+					</select>
+				</p>
+				<p>
+					<label for ="message">Message: </label>
+					<textarea name="message" id="message"></textarea>
+				</p>
+					
+			</fieldset>
+			<p id="error" class=""></p>
+			<input type="submit" value="Send" class="dontPrint" id="submit" />
+		</form>
+		
+		</article>
+		
+	</section>
+	<footer>
+        <p>&copy; Fjodors Pohodņevs</p>
+    </footer>
+</body>
+</html>
