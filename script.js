@@ -8,7 +8,7 @@ function mainfunction(){
 	var next;
 	var prev;
 	
-	for (var i=0;i<6;i++){
+	for (var i=0;i<3;i++){
 		image[i]=("ds"+i+".jpg");
 		imgobj[i]=document.getElementById("img"+i);
 	}
@@ -57,20 +57,7 @@ function mainfunction(){
 		imgNumber=3;
 	}
 	
-	imgobj[3].onclick = function(){
-		document.slideImage.src = image[3];
-		imgNumber=4;
-	}
 	
-	imgobj[4].onclick = function(){
-		document.slideImage.src = image[4];
-		imgNumber=5;
-	}
-	
-	imgobj[5].onclick = function(){
-		document.slideImage.src = image[5];
-		imgNumber=6;
-	}
 };
 
 /*************************Show more/less*************************************************************/	

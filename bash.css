@@ -85,7 +85,7 @@ ul#topmenu li
 	list-style-type:none;
 	float:left;
 	line-height:30px;
-	margin: 5px 0px 10px 100px;
+	margin: 5px 0px 10px 160px;
 	padding: 0px 35px 0px 35px;
 	border-radius: 30px;
 	background-color:#BF6530;
@@ -130,6 +130,18 @@ article h1
 {
 	color:#FF9200;
 	padding-left: 20px;
+}
+
+article h2
+{
+	color:#FF9200;
+	padding-left: 20px;
+}
+
+article h4
+{
+	padding-left: 20px;
+	padding-bottom: 20px;	
 }
 
 article p
@@ -204,7 +216,6 @@ article  a:visited
 #gallery{
 	
 	margin-top:10px;
-	margin-bottom:10px;
 	width: 970px;
 	margin-left: auto;
 	margin-right: auto;
@@ -223,6 +234,18 @@ article  a:visited
     height:236px;
     width:316px;
 	border: 2px solid #FF9200; 
+
+}
+
+
+.picture{
+      display:inline-block
+     
+}
+
+#gallery h5{
+	padding-left: 20px;
+	margin-bottom:30px;
 }
 
 
